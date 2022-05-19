@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #CE9461;
+}
+
+.wisata {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.wisata img {
+    width: 50%;
+    border-radius: 20px;
+    border: 1px solid #CE9461;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.wisata-content {
+    margin: 20px;
+}
+
+.header {
+    width: 100%;
+    height: 15vh;
+    background-color: #E0D8B0;
+    text-align: center;
+    line-height: 15vh;
+}
+
+#Footer {
+    bottom: 0;
+    margin-top: 20px;
+    align-items: center;
+    line-height: 10vh;
+    color: #CE9461;
+    width: 100%;
+    height: 10vh;
+    background-color: #E0D8B0;
+}
+
+h5 {
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    margin-top: 10px;
+    text-align: justify;
+}

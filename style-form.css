@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #CE9461;
+}
+
+.header h1{
+    margin: 20px;
+    text-align: center;
+}
+
+.header p {
+    margin: 20px;
+}
+
+hr {
+    width: 97%;
+    margin: 0 auto;
+}
+
+.form {
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.form-content {
+    margin: 20px 0;
+}
+
+.message-box {
+    width: 400px;
+    height: 100px;
+    resize: none;
+}
+
+.submit {
+    background-color: #E0D8B0;
+    border-radius: 200px;
+    line-height: 56px;
+    padding: 0 50px;
+    font-size: 15px;
+}
+
+footer {
+    bottom: 0;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.icons img {
+    width: 40px;
+    height: 40px;
+    margin: 10px 5px;
+}

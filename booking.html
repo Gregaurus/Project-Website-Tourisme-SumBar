@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-form.css">
+    <title>booking</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Booking</h1>
+
+        <p>Booking with us is simple and easy. Just fill in the booking form below and we will email your itinerary and payment details. Please don't forget you have to submit the payment for your reservation within 24 hours after submitting the booking form
+            <hr />
+        </p>
+    </div>
+
+    <div class="form">
+        <div class="form-content">
+            <h3>Name</h3>
+            <input type="text" name="name" placeholder="first">
+            <input type="text" name="name" placeholder="last">
+        </div>
+        <div class="form-content">
+            <h3>Email</h3>
+            <input type="text" name="email" placeholder="@gmail.com">
+        </div>
+        <div class="form-content">
+            <h3>Phone Number</h3>
+            <input type="tel" name="phone" placeholder="+62">
+        </div>
+        <div class="form-content">
+            <h3>Departure Date & Time</h3>
+            <input type="date" name="departure-date">
+            <input type="time" name="departure-time">
+        </div>
+        <div class="form-content">
+            <h3>Return Date & Time</h3>
+            <input type="date" name="return-date">
+            <input type="time" name="return-time">
+        </div>
+        <div class="form-content">
+            <h3>Number of Guests(Max 8 Guests)</h3>
+            <input type="number" name="guests" value="1" min="1" max="8">
+        </div>
+        <div><button class="submit">Book</button></div>
+    </div>
+</body>
+</html>
